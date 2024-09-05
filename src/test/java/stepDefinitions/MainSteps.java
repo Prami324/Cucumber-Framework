@@ -29,6 +29,9 @@ public class MainSteps {
 	public void home_page_is_displayed() {
 	    
 		System.out.println("homepage");
+		System.out.println("homepage");
+		System.out.println("homepage");
+		System.out.println("homepage");
 	    
 	}
 	@Then("cards are displayed")
