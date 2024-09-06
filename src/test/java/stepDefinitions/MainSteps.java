@@ -22,6 +22,8 @@ public class MainSteps {
 	@When("^User loginto application with (.+) and password (.+)$")
 	public void user_loginto_application(String username, String password) {
 		System.out.println("Username"+ username+","+ "Password"+ password);
+		System.out.println("Username"+ username+","+ "Password"+ password);
+		System.out.println("Username"+ username+","+ "Password"+ password);
 	    
 			}
 	    
@@ -43,6 +45,9 @@ public class MainSteps {
 	@Given("User is on practice landing page")
 	public void user_is_on_practice_landing_page() {
 	    
+		System.out.println("practice landing page");
+		System.out.println("practice landing page");
+		System.out.println("practice landing page");
 		System.out.println("practice landing page");
 	}
 	

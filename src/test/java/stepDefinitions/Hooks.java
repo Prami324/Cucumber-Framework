@@ -23,6 +23,11 @@ public class Hooks {
 	{
 		System.out.println("set up entries in Mortgage database");
 	}
+	@Before("@MortgageDB")
+	public void mortgageDBsetup1()
+	{
+		System.out.println("set up entries in Mortgage database");
+	}
 
 
 }
